@@ -1,0 +1,21 @@
+
+
+header{
+    display: block;
+    background-color:black;
+}
+
+ul{text-align: center; border-bottom: 1px solid black;}
+li{display: inline-block;line-height: 59px;padding-right: 30px;padding-left: 30px;
+color: #fff;}
+
+
+section{text-align: center}
+
+
+
+table, th, td {
+    border: 1px solid black;
+    align: "center";
+    width: 500px;
+ }
