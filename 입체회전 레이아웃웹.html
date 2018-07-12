@@ -17,7 +17,7 @@
  
   <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/prefixfree.min.js"></script>
-  <script  type="text/javascript"src="js/custom.js"></script>
+  
   
   <style>
   @charset "utf-8";
@@ -26,20 +26,64 @@
     *{margin:0; padding:0;}
     ol,ul{list-style:none;}
     body{position:fixed; width:100%; height:100%; background:#111;font-family:orbitron;}
-    a{outline:0;text-decoration:none;}
+    a{outline:0;text-decoration:none; color: #bbb;}
+    img{border:0;}  
+      
+      
+      /*네비스타일*/
+      .wrap{position:fixed;width:100%;height:100%; min-width:1024px; min-height:768px; perspective:900px;}
+          
+          /*메뉴호출*/
+         .btnMnu{top:50%; left:40%; display:inline-block;width:20px;height:70px;text-align:center;font-size:40px; color:#fff;
+      z-index:3;animation: ani 0.5s infinite alternate;}
+      @keyframes ani{
+          0%{transform:scale(1); opacity:1; color:#fff;}
+          100%{transform:scale(1.5); opacity:0.8; color:#888;}
+      }
+      
+      /*카테고리그룹*/
+      nav{position}
+      /*로고*/
+      
+      /*카데고리메뉴*/
+      
+      /*콘텐츠*/
     
   </style>
+    
+    <script>
+        $(document).ready(function(){
+        
+        });
+    </script>
   
 </head>
 
 <!--보인는 화면-->
 <body>
-  
+    <div>
+    <!--네비영역호출 버튼-->
+        <a class="btnMnu" href="#"><i class="fa fa-navicon"></i></a>
+        
+        <!--실제카테고리 메뉴 네비영역-->
+        <nav>
+        <h1><img alt="이미지예시"></h1>
+            <ul id="gnb">
+                <li><a href="#">home</a></li>
+                <li><a href="#">girl</a></li>
+                <li><a href="#">kids</a></li>
+            </ul>
+        </nav>
+            
+        <!--3개의 콘텐츠 박스가 들어가 세션-->
+        <section>
+        <div class="box1 on"></div>
+             <div class="box2"></div>
+             <div class="box3"></div>
+        </section>
+    </div>
+
   </body>
-  
-  <footer>
-    </footer>
-  
-  
+
   
   </thml>
