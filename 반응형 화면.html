@@ -123,40 +123,36 @@ article:nth-child(12) {width : 20%; background : #222;}
       
   @media screen and (min-width:480px) and (max-width:639px){
   
+    header{position:relative; width:100%; height:130px;}
+    nav{display:none;}
+    section{width:100%; margin-left:0px;}
+    article{height:150px;}
    
-    article:nth-child(1){width:100%;}
-    article:nth-child(2){width:%;}
-    article:nth-child(3){width:%;}
-    article:nth-child(4){width:%;}
-    article:nth-child(5){width:%;}
-    article:nth-child(6){width:%;}
-    article:nth-child(7){width:%;}
-    article:nth-child(8){width:%;}
-    article:nth-child(9){width:%;}
-    article:nth-child(10){width:%;}
-    article:nth-child(11){width:%;}
-    article:nth-child(12){width:%;}
+    article:nth-child(1){width:100%;height:300px;}
+    article:nth-child(2){width:100%;}
+    article:nth-child(3){width:33.3333%;display:none;}
+    article:nth-child(4){width:100%;display:none;}
+    article:nth-child(5){width:50%;}
+    article:nth-child(6){width:50%;}
+    article:nth-child(7){width:66.6666%;display:none;}
+    article:nth-child(8){width:50%;}
+    article:nth-child(9){width:50%;}
+    article:nth-child(10){width:66.6666%;display:none;}
+    article:nth-child(11){width:50%;}
+    article:nth-child(12){width:50%;}
     
   }
       
       
       
-  @media screen and (min-width:px) and (max-width:479px){
+  @media screen and (max-width:479px){
   
-     
-    article:nth-child(1){width:100%;}
-    article:nth-child(2){width:%;}
-    article:nth-child(3){width:%;}
-    article:nth-child(4){width:%;}
-    article:nth-child(5){width:%;}
-    article:nth-child(6){width:%;}
-    article:nth-child(7){width:%;}
-    article:nth-child(8){width:%;}
-    article:nth-child(9){width:%;}
-    article:nth-child(10){width:%;}
-    article:nth-child(11){width:%;}
-    article:nth-child(12){width:%;}
-    
+     header{position:fixed; width:100%; height:40px;background-color:transparent; z-index:5;}
+    nav{display:none;}
+    section{width:100%; margin-left:0px; z-index:4;}
+    article{display:none;}
+   
+    article:nth-child(1){width:100%;height:100%;display:block;position:fixed;}
   }
       
 
